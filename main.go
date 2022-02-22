@@ -6,7 +6,7 @@ import (
   "flag"
   "strings"
   "strconv"
-  "encoding"
+  "encoding/csv"
 )
 
 type User struct {
