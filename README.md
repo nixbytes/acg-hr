@@ -26,17 +26,6 @@ cloud_user,1002,/home/cloud_user,/bin/bash
 kevin,1003,/home/kevin,/bin/zsh
 ```
 
-Hints:
-
-Go provides numerous libraries that will be useful to implement this tool. Some to consider investigating would be:
-
-```
-    encoding/json: The built-in JSON encoding/decoding library.
-    encoding/csv: The built-in CSV encoding/decoding library.
-    strconv: The standard library package for converting strings to other types.
-    strings: A library for working with strings. Useful for changing a string to all lowercase letters.
-```
-
 The information we want can be found in the /etc/passwd file.
 
 This code is from **Building a Go Command Line Tool** from [A Cloud Guru](https://acloudguru.com/)
